@@ -1,6 +1,6 @@
 const path = require('path');
 const express = require('express');
-const nameApp = 'sba7-jean-app';
+const nameApp = 'sba7-app';
 const app = express();
 // Servir arquivos estáticos
 app.use(express.static(`${__dirname}/dist/${nameApp}`));
