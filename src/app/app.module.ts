@@ -1,3 +1,4 @@
+import { RegisterConfirmationComponent } from './components/register-user/register-confirmation.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
@@ -31,7 +32,8 @@ import { MessageService } from './core/message.service';
     ListUserComponent,
     WelcomeComponent,
     HeaderComponent,
-    DeleteUserModalComponent
+    DeleteUserModalComponent,
+    RegisterConfirmationComponent
   ],
   imports: [
     BrowserModule,

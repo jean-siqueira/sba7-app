@@ -14,6 +14,7 @@ import { MessageService } from 'src/app/core/message.service';
 export class EditUserComponent implements OnInit {
   user = new  UserDTO();
   idUser: string;
+  submitted = false;
 
   constructor(private apiService: ApiService,
               private route: ActivatedRoute,

@@ -11,6 +11,7 @@ import { MessageService } from 'src/app/core/message.service';
 })
 export class ListUserComponent implements OnInit {
   users: UserDTO[];
+  submitted = false;
 
   constructor(private router: Router,
               private messageService: MessageService,

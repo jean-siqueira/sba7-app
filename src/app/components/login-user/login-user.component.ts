@@ -13,6 +13,8 @@ export class LoginUserComponent implements OnInit {
 
   user = new UserLogin();
 
+  submitted = false;
+
   constructor(private apiService: ApiService, 
               private router: Router,
               private messageService: MessageService) { }
